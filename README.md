@@ -55,13 +55,13 @@ Após isso só nos enviar o link do seu repositório que iremos analisar.
 
 # 📚 Materiais de apoio
 
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Fluxo conversacional do desafio](https://bit.ly/3bxfe9F)
+* [Como criar um chatbot no Builder do Blip](https://bit.ly/3tw7zRR)
+* [Ação: Requisição HTTP](https://bityli.com/MYzgt)
+* [Exportar o fluxo do chatbot](https://bityli.com/K9JJR)
+* [Exemplo de exportação do fluxo(vídeo)](https://bityli.com/USYoD)
+* [Curso criando chatbots com a plataforma BLIP](https://bityli.com/AsPJy)
+* [API do GitHub](https://developer.github.com/v3/)
+* [Repositório da Take](https://github.com/takenet)
+* [Fórum de dúvidas do Blip](https://forum.blip.ai/)
+* [Exemplo de funcionamento do bot ( vídeo )](https://bityli.com/xNeiu)
