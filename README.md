@@ -36,7 +36,16 @@
 
 <p>Após concluído o desafio, você deve criar um repositório publico para análise com o código de sua API e ojson do seu chatbot. Você deverá exportar o fluxo do seu chatbot para ter acesso ao json.</p>
 
-<p></p>
+<p>**O seu repositório pode ter a seguinte estrutura:**</p>
+
+```batch
+challenge
+|-- Api
+|-- Flow
+    |--mybotflow.json   
+```
+
+
 <p></p>
 <p></p>
 <p></p>
