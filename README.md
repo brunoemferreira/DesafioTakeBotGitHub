@@ -65,3 +65,5 @@ Após isso só nos enviar o link do seu repositório que iremos analisar.
 * [Repositório da Take](https://github.com/takenet)
 * [Fórum de dúvidas do Blip](https://forum.blip.ai/)
 * [Exemplo de funcionamento do bot ( vídeo )](https://bityli.com/xNeiu)
+
+> **Obs:** O vídeo de funcionamento do bot é somente para consulta de como o bot pode se comportardiante do teste apresentado. Se atente principalmente ao fluxo conversacional proposto e asorientações apresentadas acima. Use o vídeo para comparar e entender se o fluxo que seu bot estáseguindo faz sentido.
