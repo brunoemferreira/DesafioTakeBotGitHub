@@ -10,13 +10,15 @@ const cors = require("cors");
 
 const app = express();
 
+const port = process.env.PORT || 8000;
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extend: true }));
 
 app.use(require('./routes'));
 
-app.listen(3000, function () {
-  console.log('App Listen on port 3000!');
+app.listen(port, function () {
+  console.log("App Listen on port " + port);
 });
 
