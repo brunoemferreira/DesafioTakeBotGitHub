@@ -46,11 +46,22 @@ challenge
 ```
 Após isso só nos enviar o link do seu repositório que iremos analisar.
 
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+# 🎯 Resultados esperados
 
+* O fluxo conversacional do seu chatbot deve estar exatamente como o que está sendo pedido noexemplo enviado;
+* Seu chatbot deve consumir a sua API intermediária (API que você criou para consumir a API do GitHub);
+* Você deverá exportar o fluxo do seu chatbot e inserir no repositório o .json do fluxo;
+* Ao final, nos envie o link do repositório para análise.
 
+# 📚 Materiais de apoio
 
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
