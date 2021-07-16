@@ -17,7 +17,7 @@
 > É importante que antes de iniciar qualquer parte você acesse o fluxo proposto para entender o queesperamos que o seu chatbot faça.
 > Outro ponto importante é acessar os materiais de apoio e estudar os conteúdos disponibilizados paraentender como você fará o seu chatbot.
 
-<p>No fluxo conversacional existe um componente de carrossel com informações sobre o Desafio, ao clicarnessa opção o chatbot deve listar informações sobre os 5 repositórios de linguagem C# mais antigos da Take,ordenados de forma crescente por data de criação.</p>
+<p>No fluxo conversacional existe um componente de carrossel com informações sobre o Desafio, ao clicar nessa opção o chatbot deve listar informações sobre os 5 repositórios de linguagem C# mais antigos da Take,ordenados de forma crescente por data de criação.</p>
 <p>Para isso será necessário que você crie uma API que realize a integração com a API pública do GitHub.</p>
 <p>A imagem de cada card do carrossel deve ser o avatar da Take no GitHub. O título de cada card deve ser onome completo do repositório, e o subtítulo deve ser a descrição do repositório. Os cards não devem ternenhum botão.</p>
 
@@ -34,7 +34,7 @@
 
 # 🤷 Como meu teste será validado?
 
-<p>Após concluído o desafio, você deve criar um repositório publico para análise com o código de sua API e ojson do seu chatbot. Você deverá exportar o fluxo do seu chatbot para ter acesso ao json.</p>
+<p>Após concluído o desafio, você deve criar um repositório publico para análise com o código de sua API e o json do seu chatbot. Você deverá exportar o fluxo do seu chatbot para ter acesso ao json.</p>
 
 **O seu repositório pode ter a seguinte estrutura:**
 
@@ -66,4 +66,4 @@ Após isso só nos enviar o link do seu repositório que iremos analisar.
 * [Fórum de dúvidas do Blip](https://forum.blip.ai/)
 * [Exemplo de funcionamento do bot ( vídeo )](https://bityli.com/xNeiu)
 
-> **Obs:** O vídeo de funcionamento do bot é somente para consulta de como o bot pode se comportardiante do teste apresentado. Se atente principalmente ao fluxo conversacional proposto e asorientações apresentadas acima. Use o vídeo para comparar e entender se o fluxo que seu bot estáseguindo faz sentido.
+> **Obs:** O vídeo de funcionamento do bot é somente para consulta de como o bot pode se comportar diante do teste apresentado. Se atente principalmente ao fluxo conversacional proposto e as orientações apresentadas acima. Use o vídeo para comparar e entender se o fluxo que seu bot está seguindo faz sentido.
