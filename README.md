@@ -44,7 +44,7 @@ challenge
 |-- Flow
     |--mybotflow.json   
 ```
-
+Após isso só nos enviar o link do seu repositório que iremos analisar.
 
 <p></p>
 <p></p>
