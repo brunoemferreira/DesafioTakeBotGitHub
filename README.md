@@ -1,5 +1,3 @@
-
-
 # 💬 Sobre o Desafio
 
 <p>Você deverá construir um Contato Inteligente (bot) em nossa plataforma, mas como assim 😱?</p>
@@ -67,3 +65,8 @@ Após isso só nos enviar o link do seu repositório que iremos analisar.
 * [Exemplo de funcionamento do bot ( vídeo )](https://bityli.com/xNeiu)
 
 > **Obs:** O vídeo de funcionamento do bot é somente para consulta de como o bot pode se comportar diante do teste apresentado. Se atente principalmente ao fluxo conversacional proposto e as orientações apresentadas acima. Use o vídeo para comparar e entender se o fluxo que seu bot está seguindo faz sentido.
+
+# URL da API 
+
+[https://desafiotake-api.herokuapp.com/repos](https://desafiotake-api.herokuapp.com/repos)
+
