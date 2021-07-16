@@ -30,7 +30,12 @@
 * C#
 * JavaScript
 
-<p></p>
+> Para publicar a sua API, você pode utilizar qualquer serviço disponível no mercado hoje. Alguns sitesque oferecem esse serviço são: Azure, Google, Amazon, Heroku, etc.
+
+# 🤷 Como meu teste será validado?
+
+<p>Após concluído o desafio, você deve criar um repositório publico para análise com o código de sua API e ojson do seu chatbot. Você deverá exportar o fluxo do seu chatbot para ter acesso ao json.</p>
+
 <p></p>
 <p></p>
 <p></p>
