@@ -15,7 +15,19 @@ routes.get("/repos", async (req, res) => {
     // Slice pega os 5 registros que ja estão ordenados
     const filtredValue = data.filter(repo => repo.language === 'C#').slice(0, 5);
 
-    return res.send({ filtredValue })
+    /*  Monta o JSON de resposta
+     *  url_image : A imagem de cada card do carrossel deve ser o avatar da Take no GitHub
+     *  title : O título de cada card deve ser o nome completo do repositório
+     *  subtitle : O subtítulo deve ser a descrição do repositório
+     */
+    const result = filtredValue.map(repo => ({
+      url_image: repo.owner.avatar_url,
+      title: repo.full_name,
+      subtitle: repo.description
+    }))
+
+    res.status(200).json(result).end();
+    // return res.send({ result })
   } catch (error) {
     res.send({ error: error.message })
   }
