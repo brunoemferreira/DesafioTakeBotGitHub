@@ -1,9 +1,10 @@
 <!-- ******************************* Logotipo ****************************************  -->
 <div align="center">
-   <img src="">
+   <img src="./Assets/logotake.png" width="300px">
 </div>
+</br>
 <!-- ******************************* Título do Projeto ****************************************  -->
-<h1> Desafio : Contato Inteligente(bot)</h1>
+<h1 align="center"> Desafio : Contato Inteligente (bot)</h1>
 
 <!-- *******************************  Status do Projeto  **************************************  -->
 <p align="center">
@@ -38,7 +39,7 @@
 <h3 id="navegacao"> 🧭 Menu de Navegação </h3>
 
  - <a href="#sobre">Sobre o Projeto</a>
-   - <a href="#funcionalidades">Funcionalidades</a>
+   - <a href="#resultados">Resultados Esperados</a>
    - <a href="#imagens">Imagens do Projeto </a>
  - <a href="#tecnologias">Tecnologias e Bibliotecas </a>
  - <a href="#configuracoes">Configurações</a>
@@ -46,6 +47,7 @@
  - <a href="#rodando">Rodando o Projeto</a>
  - <a href="#links">Links Úteis</a>
  - <a href="#referencias">Referências</a>
+ - <a href="https://github.com/brunoemferreira/DesafioTakeBotGitHub/blob/main/Flow/valoresbot.json">Fluxo do ChatBot</a>
 
 <!-- ******************************* Sobre ***************************************************  -->
 
@@ -53,11 +55,12 @@
 O desafio consiste em criar um contato inteligente ( bot ) utilizando a plataforma Blip, o qual faça integração com uma API intermediária, que conversa com a API do GitHub e traz um JSON com informações dos repositórios que devem ser formatados conforme funcionalidades descritas na seção Funcionalidades.
 
 <!-- ******************************* Funcionalidades *****************************************  -->
-<h3 id="funcionalidades">✅ <a href="#navegacao"> Funcionalidades </a> </h3>
+<h3 id="resultados">✅ <a href="#navegacao"> Resultados Esperados </a> </h3>
 
-- [X] Trazer 5 repositórios da Take
-- [X] Que são da linguagem C#
-- [X] Ordenados de forma crescente por data de criação
+- [X] O fluxo conversacional do seu chatbot deve estar exatamente como o que está sendo pedido noexemplo enviado;
+- [X] Seu chatbot deve consumir a sua API intermediária (API que você criou para consumir a API do GitHub);
+- [X] Você deverá exportar o fluxo do seu chatbot e inserir no repositório o .json do fluxo;
+- [X] Ao final, nos envie o link do repositório para análise.
 
 <!-- ******************************* Imagens do Projeto  *************************************  -->
 <h3 id="imagens"> 🖼️ <a href="#navegacao"> Imagens do Projeto </a> </h3>
@@ -80,35 +83,35 @@ O desafio consiste em criar um contato inteligente ( bot ) utilizando a platafor
 <h3 id="configuracoes"> ☑️  <a href="#navegacao"> Configurações</a> </h3>
 
 ```javascript
-
+// Deverá ser criado na raiz do projeto um arquivo .env com a seguinte diretiva
+PORT=3000
 ```
 
 <!-- *********************************** Configurações  **************************************  -->
-<h3 id="configuracoes"> ☑️  <a href="#json">Arquivo JSON</a> </h3>
+<h3 id="json"> ☑️  <a href="#navegacao">Arquivo JSON</a> </h3>
 
 > Formatação do arquivo JSON
 ```json
-[
+{
   "identificador do bloco":{
-    "title" : "Título do Carrosel",
-    "text" : "Subtitulo do Carrosel",
-    "type" : "Tipo do arquivo de retorno da uri utilizar image/jpeg",
-    "uri" : "uri da imagem do carrosel",
+      "title" : "Título do Carrosel",
+      "text" : "Subtitulo do Carrosel",
+      "type" : "Tipo do arquivo de retorno da uri utilizar image/jpeg",
+      "uri" : "uri da imagem do carrosel",
   }, ...
-]
+}
 ```
 > Exemplo do Arquivo JSON
 ```json
-[
-  "identificador do bloco":{
-    "title" : "Título do Carrosel",
-    "text" : "Subtitulo do Carrosel",
-    "type" : "Tipo do arquivo de retorno da uri utilizar image/jpeg",
-    "uri" : "uri da imagem do carrosel",
+{
+  "0": {
+    "title": "takenet/library.data",
+    "text": "Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications",
+    "type": "image/jpeg",
+    "uri": "https://avatars.githubusercontent.com/u/4369522?v=4"
   }, ...
-]
+}
 ```
-
 
 <!-- ******************************* Rodando o Projeto  **************************************  -->
 <h3 id="rodando"> ⚙️ <a href="#navegacao"> Rodando o Projeto</a> </h3>
@@ -132,6 +135,7 @@ ou
 # Modo produção
 $ yarn start 
 
+# O projeto será iniciado na porta 3000 caso seja criado o arquivo .env senão ele iniciara na porta 8000
 ```
 
 <!-- *********************************** Links Úteis  **************************************  -->
@@ -142,6 +146,7 @@ $ yarn start
 <!-- *********************************** Referências **************************************  -->
 <h3 id="referencias"> ☑️  <a href="#navegacao"> Referências</a> </h3>
 
+* [Documento do Desafio](https://github.com/brunoemferreira/DesafioTakeBotGitHub/blob/main/Assets/Documents/sobre-o-desafio.md)
 * [Heroku](https://www.heroku.com/) - Serviço de Hospedagem da API
 * [GitHub Docs - Repositories](https://docs.github.com/en/rest/reference/repos) - Referência para manipulação de URL da API de Repositórios
 * [BlipDocs](https://docs.blip.ai/#carousel) - Manual de referência para montagem do JSON de integração
