@@ -30,8 +30,8 @@ routes.get("/repos", async (req, res) => {
       uri: repo.owner.avatar_url
     }))
 
-    // Adiciona um id para cada registro de repositorio do Array de objetos
-    const result = [];
+    // Adiciona um id para cada registro objeto de repositorio
+    const result = {};
     buildJsonOutput.map((repo, index) => {
       result[index] = repo;
     })
