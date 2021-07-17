@@ -3,33 +3,33 @@
    <img src="">
 </div>
 <!-- ******************************* Título do Projeto ****************************************  -->
-<h1> Título do Projeto </h1>
+<h1> Desafio : Contato Inteligente(bot)</h1>
 
 <!-- *******************************  Status do Projeto  **************************************  -->
 <p align="center">
-   Status do Projeto :  🚧 Projeto em Construção  🚧
+   Status do Projeto : Finalizado
 </p>
 <br/>
 
 <!-- ************************************  Cronograma  ****************************************  -->
 
-| Data | Programação | Status |
-| ---- | ----------- | ------ |
-| /    |             | ✔️      |
-| /    |             | 📺      |
-| /    |             | 🚧      |
+| Data       | Programação | Status |
+| ---------- | ----------- | ------ |
+| 15/07/2021 | Início      | ✔️      |
+| 18/07/2021 | Entrega     | ✔️      |
+
 
 <!-- ************************************  Badges  ********************************************  -->
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/Markdown_Library?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/DesafioTakeBotGitHub?color=%2304D361">
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Bruno Eduardo" src="https://img.shields.io/badge/made%20by-Bruno Eduardo-%2304D361">
   </a>
 
-  <img src="https://img.shields.io/github/repo-size/brunoemferreira/Markdown_Library" alt="badge"/>
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/Markdown_Library">
+  <img src="https://img.shields.io/github/repo-size/brunoemferreira/DesafioTakeBotGitHub" alt="badge"/>
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/DesafioTakeBotGitHub">
 
 </p>
 
@@ -42,6 +42,7 @@
    - <a href="#imagens">Imagens do Projeto </a>
  - <a href="#tecnologias">Tecnologias e Bibliotecas </a>
  - <a href="#configuracoes">Configurações</a>
+ - <a href="#json">Formato do arquivo JSON</a>    
  - <a href="#rodando">Rodando o Projeto</a>
  - <a href="#links">Links Úteis</a>
  - <a href="#referencias">Referências</a>
@@ -49,24 +50,31 @@
 <!-- ******************************* Sobre ***************************************************  -->
 
 <h2 id="sobre"> 🚀 <a href="#navegacao"> Sobre o Projeto </a></h2>
-Descrição do que é e para que serve o projeto que foi desenvolvido.
+O desafio consiste em criar um contato inteligente ( bot ) utilizando a plataforma Blip, o qual faça integração com uma API intermediária, que conversa com a API do GitHub e traz um JSON com informações dos repositórios que devem ser formatados conforme funcionalidades descritas na seção Funcionalidades.
 
 <!-- ******************************* Funcionalidades *****************************************  -->
 <h3 id="funcionalidades">✅ <a href="#navegacao"> Funcionalidades </a> </h3>
 
-- [X] Funcionalidade 1 
-- [ ] Funcionalidade 2
+- [X] Trazer 5 repositórios da Take
+- [X] Que são da linguagem C#
+- [X] Ordenados de forma crescente por data de criação
 
 <!-- ******************************* Imagens do Projeto  *************************************  -->
 <h3 id="imagens"> 🖼️ <a href="#navegacao"> Imagens do Projeto </a> </h3>
 
+<div align="center">
+   
+</div>
+
 <!-- ************************* Tecnologias e Bibliotecas  ************************************  -->
 <h3 id="tecnologias"> 🧰 <a href="#navegacao"> Tecnologias e Bibliotecas</a> </h3>
 
-* [Tecnologia1]()
-* [Tecnologia2]()
-* [Tecnologia3]()
-* [Tecnologia4]()
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
+* [NodeJs](https://nodejs.org/en/)
+* [Express](https://expressjs.com/pt-br/)
+* [Nodemon](https://www.npmjs.com/package/nodemon)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Cors](https://www.npmjs.com/package/cors)
 
 <!-- *********************************** Configurações  **************************************  -->
 <h3 id="configuracoes"> ☑️  <a href="#navegacao"> Configurações</a> </h3>
@@ -74,6 +82,33 @@ Descrição do que é e para que serve o projeto que foi desenvolvido.
 ```javascript
 
 ```
+
+<!-- *********************************** Configurações  **************************************  -->
+<h3 id="configuracoes"> ☑️  <a href="#json">Arquivo JSON</a> </h3>
+
+> Formatação do arquivo JSON
+```json
+[
+  "identificador do bloco":{
+    "title" : "Título do Carrosel",
+    "text" : "Subtitulo do Carrosel",
+    "type" : "Tipo do arquivo de retorno da uri utilizar image/jpeg",
+    "uri" : "uri da imagem do carrosel",
+  }, ...
+]
+```
+> Exemplo do Arquivo JSON
+```json
+[
+  "identificador do bloco":{
+    "title" : "Título do Carrosel",
+    "text" : "Subtitulo do Carrosel",
+    "type" : "Tipo do arquivo de retorno da uri utilizar image/jpeg",
+    "uri" : "uri da imagem do carrosel",
+  }, ...
+]
+```
+
 
 <!-- ******************************* Rodando o Projeto  **************************************  -->
 <h3 id="rodando"> ⚙️ <a href="#navegacao"> Rodando o Projeto</a> </h3>
