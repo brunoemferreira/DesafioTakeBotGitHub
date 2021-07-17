@@ -21,9 +21,10 @@ routes.get("/repos", async (req, res) => {
      *  subtitle : O subtítulo deve ser a descrição do repositório
      */
     const result = filtredValue.map(repo => ({
-      url_image: repo.owner.avatar_url,
       title: repo.full_name,
-      subtitle: repo.description
+      text: repo.description,
+      type: "image/jpeg",
+      uri: repo.owner.avatar_url
     }))
 
     res.status(200).json(result).end();
