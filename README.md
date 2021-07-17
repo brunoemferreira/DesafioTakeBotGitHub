@@ -54,7 +54,7 @@
 <h2 id="sobre"> 🚀 <a href="#navegacao"> Sobre o Projeto </a></h2>
 O desafio consiste em criar um contato inteligente ( bot ) utilizando a plataforma Blip, o qual faça integração com uma API intermediária, que conversa com a API do GitHub e traz um JSON com informações dos repositórios que devem ser formatados conforme funcionalidades descritas na seção Funcionalidades.
 
-<!-- ******************************* Funcionalidades *****************************************  -->
+<!-- ******************************* Resultados *****************************************  -->
 <h3 id="resultados">✅ <a href="#navegacao"> Resultados Esperados </a> </h3>
 
 - [X] O fluxo conversacional do seu chatbot deve estar exatamente como o que está sendo pedido noexemplo enviado;
@@ -66,12 +66,28 @@ O desafio consiste em criar um contato inteligente ( bot ) utilizando a platafor
 <h3 id="imagens"> 🖼️ <a href="#navegacao"> Imagens do Projeto </a> </h3>
 
 <div align="center">
-   
+
+<h4> <b>Fluxo</b> </h4>
+<img src="./Assets/FluxoValoresBot.png" width="800px">
+</br>
+    
+<h4> <b>Telas do Bot</b></h4>
+<img src="./Assets/1.png" width="300px">
+<img src="./Assets/2.png" width="300px">
+<img src="./Assets/3.png" width="300px">
+<img src="./Assets/4.png" width="300px">
+<img src="./Assets/5.png" width="300px">
+<img src="./Assets/6.png" width="300px">
+<img src="./Assets/7.png" width="300px">
+<img src="./Assets/8.png" width="300px">
+<img src="./Assets/9.png" width="300px">
+
 </div>
 
 <!-- ************************* Tecnologias e Bibliotecas  ************************************  -->
 <h3 id="tecnologias"> 🧰 <a href="#navegacao"> Tecnologias e Bibliotecas</a> </h3>
 
+* [Portal Blip](https://account.blip.ai/login)
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
 * [NodeJs](https://nodejs.org/en/)
 * [Express](https://expressjs.com/pt-br/)
